@@ -1,0 +1,13 @@
+
+CREATE TABLE daily_covid19_report(
+    new_case INT NULL,
+    new_case_excludeabroad INT NULL,
+    new_death INT NULL,
+    new_recovered INT NULL,
+    total_case INT NULL,
+    total_case_excludeabroad INT NULL,
+    total_death INT NULL,
+    total_recovered INT NULL,
+    txn_date TEXT NULL,
+    update_date TEXT NULL
+);
